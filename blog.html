@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Blog — Giuseppe Giona"
+description: "Latest articles by Giuseppe Giona on AI, Security, Business Systems, and Strategy."
+---
+
+<section class="blog-section">
+  <h1>📝 Blog</h1>
+  <p>
+    Essays, deep dives, and technical breakdowns every 2 days.  
+    Topics include <strong>AI</strong>, <strong>security engineering</strong>, 
+    <strong>business strategy</strong>, and how to build systems that scale.  
+  </p>
+</section>
+
+<hr />
+
+<section class="post-list">
+  {% for post in site.posts %}
+    <article class="post">
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <p class="meta">
+        {{ post.date | date: "%B %d, %Y" }}
+        {% if post.categories %} — 
+          Categories: 
+          {% for category in post.categories %}
+            <span class="tag">{{ category }}</span>
+          {% endfor %}
+        {% endif %}
+      </p>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <a href="{{ post.url | relative_url }}">Read more →</a>
+    </article>
+    <hr />
+  {% endfor %}
+</section>
+
+<style>
+.blog-section h1 {
+  font-size: 2rem;
+  color: #00ffe0;
+}
+.post h2 a {
+  color: #00ff99;
+  text-decoration: none;
+}
+.post h2 a:hover {
+  text-decoration: underline;
+}
+.meta {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+.tag {
+  background: #222;
+  padding: 2px 6px;
+  margin: 0 3px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #0f0;
+}
+</style>
