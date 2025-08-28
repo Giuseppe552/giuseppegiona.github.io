@@ -1,19 +1,12 @@
 # 🕶️ Giuseppe Giona — Building Systems, Securing Futures, Staying Positive
 
-Welcome to my personal site.  
-I’m a **Mathematics graduate**, AI & Security engineer-in-progress, and founder of **Alveriano — B2B Strategy Solutions**.  
-I build **scalable systems** that eliminate inefficiency, apply **AI for security & automation**, and share what I learn here.  
+I work on tools that strip noise, uncover signals, and make businesses harder to break — technically and financially.  
 
-This GitHub Pages site is both my **public notebook** and **business card**.  
-Think of it as my hacker-style LinkedIn — but stripped of fluff, focused on depth, and designed for people who want to think at scale.
+My background sits between numbers and systems: from writing code that cleans hidden metadata to frameworks that save companies **£50k+ a year in wasted inefficiency**. The common thread? Precision.  
 
----
+I don’t see technology as just code — it’s leverage. The right system compounds, the right security protects, and the right mindset sustains. That’s what I share here: experiments, insights, and tools built in public.  
 
-## ⚡ About Me
-- **AI & Security**: From metadata cleaners to red-team tools, I design practical solutions.  
-- **Business Systems**: Helping service businesses save £50k+/year by fixing broken processes.  
-- **Positive Energy**: Tech is powerful, but people invest in trust. I write with clarity, kindness, and confidence.  
-- **Mission**: Build systems that scale, protect what matters, and inspire others to push beyond limits.  
+This site is my notebook and my signal. If you’re reading this, you probably value clarity, resilience, and growth the same way I do.  
 
 ---
 
@@ -32,24 +25,22 @@ Every 2 days, I publish new posts here:
 |---------|-------------|------|
 | [Network Scanner](https://github.com/Giuseppe552/network-scanner) | Multi-threaded Python port scanner, banner grabbing, demo output | Python, Sockets |
 | [Metadata Cleaner](https://github.com/Giuseppe552/metadata-cleaner) | Strip hidden metadata from PDFs, DOCX, and images | Python, PyPDF2, Pillow, python-docx |
-| Alveriano Blog | Strategy insights for high-ticket service businesses | Jekyll, GitHub Pages |
 
 ---
 
 ## 📈 Roadmap
 - Add AI-driven anomaly detection tools  
-- Publish 100+ technical + business posts in 2025  
+- Publish 100+ technical + business posts in 2025-2027  
 - Release free tools for small businesses to secure and scale faster  
-- Build a long-term community of engineers + entrepreneurs  
+- Build a long-term community
 
 ---
 
 ## 📞 Business Contact
 Are you a **business owner** losing time, money, or clients because of inefficiency or weak systems?  
-That’s where Alveriano comes in.  
 
 📧 Email: **contact@giuseppegiona.com**  
-🌍 Website: [alveriano.com](https://alveriano.com)  
+
 
 ---
 
