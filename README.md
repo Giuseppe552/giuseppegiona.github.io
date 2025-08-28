@@ -36,10 +36,10 @@ Every 2 days, I publish new posts here:
 
 ---
 
-## 📞 Business Contact
-Are you a **business owner** losing time, money, or clients because of inefficiency or weak systems?  
+## 📞 Contact
+Are you losing time, money, or clients because of inefficiency or weak systems?  
 
-📧 Email: **contact@giuseppegiona.com**  
+📧 Email: **contact.giuseppe00@gmail.com**  
 
 
 ---
