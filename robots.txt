@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
 
+# Sitemap for crawlers
 Sitemap: https://www.giuseppegiona.com/sitemap.xml
+
+# Additional SEO hints
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Prevent crawling of GitHub Pages backend stuff
+Disallow: /Gemfile
+Disallow: /README.md
+Disallow: /LICENSE
