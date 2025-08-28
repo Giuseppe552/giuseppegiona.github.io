@@ -3,88 +3,314 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Giuseppe Giona — Strategy, Systems, and Technology.">
-  <title>Giuseppe Giona</title>
+  <meta name="description" content="Giuseppe Giona — Systems, AI, Security, and Business Strategy. Building leverage, scaling businesses, and securing the future.">
+  <title>Giuseppe Giona — Systems, Strategy, AI</title>
   <style>
     body {
       background: #0a0a0a;
       color: #e2e2e2;
       font-family: "Fira Code", monospace;
-      line-height: 1.6;
-      max-width: 850px;
+      line-height: 1.7;
+      max-width: 950px;
       margin: auto;
       padding: 40px;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+    h1, h2, h3 {
       color: #0ff;
-    }
-    h2 {
-      font-weight: normal;
-      color: #bbb;
-      margin-bottom: 2rem;
-    }
-    h3 {
       margin-top: 2rem;
-      color: #0ff;
     }
     a {
       color: #0ff;
       text-decoration: none;
     }
     a:hover {
-      color: #f0f;
       text-shadow: 0px 0px 6px #0ff;
     }
     footer {
-      margin-top: 60px;
+      margin-top: 80px;
       font-size: 0.9rem;
       color: #888;
+    }
+    .faq-section {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+    }
+    .faq-question {
+      margin-top: 2rem;
+      font-weight: bold;
+      color: #0ff;
+    }
+    .faq-answer {
+      margin-top: 0.5rem;
     }
   </style>
 </head>
 <body>
 
   <h1>Giuseppe Giona</h1>
-  <h2>Building systems • Designing leverage • Creating lasting impact</h2>
+  <h2>Building Systems • Designing Leverage • Creating Lasting Impact</h2>
 
   <section>
     <h3>About Me</h3>
     <p>
       I work where <strong>technology, strategy, and business</strong> intersect.  
-      My background in mathematics trained me to value precision. My work today is about applying that same precision to 
-      <strong>systems that scale</strong>, frameworks that remove inefficiency, and tools that strengthen resilience.  
+      My background in mathematics trained me to value precision. Today, I apply that same precision to <strong>scalable systems</strong> that remove inefficiency, frameworks that compound, and strategies that strengthen resilience.  
     </p>
     <p>
-      I’m the founder of <strong>Alveriano</strong>, where I explore how technology can compound growth and sharpen competitive advantage.
+      I’m the founder of <strong>Alveriano</strong>, where I explore how technology can be leveraged for growth, efficiency, and security in ambitious businesses.  
     </p>
   </section>
 
   <section>
     <h3>What I Do</h3>
     <ul>
-      <li>Create <strong>systems and frameworks</strong> that eliminate waste and unlock growth.</li>
-      <li>Design and publish <strong>security & automation tools</strong> as open projects.</li>
-      <li>Work with ideas at the edge of <strong>AI, security, and business strategy</strong>.</li>
+      <li>Create <strong>systems and frameworks</strong> that eliminate waste and unlock compounding growth.</li>
+      <li>Design and publish <strong>security & automation tools</strong> that give businesses leverage.</li>
+      <li>Work with ideas at the edge of <strong>AI, systems strategy, and efficiency economics</strong>.</li>
     </ul>
+  </section>
+
+  <section>
+    <h3>Blog</h3>
+    <p>
+      I publish essays, deep dives, and technical breakdowns every 2 days.  
+      Topics range from <strong>AI in business strategy</strong>, <strong>security engineering</strong>, to <strong>how companies silently bleed money through inefficiency</strong>.  
+      <a href="/blog">Read the blog here →</a>
+    </p>
   </section>
 
   <section>
     <h3>Business Contact</h3>
     <p>
-      If you’re building something ambitious and want to explore how systems thinking and technology can support it, get in touch:  
+      If you’re building something ambitious and want to explore how systems thinking and technology can support it, reach out:  
       <br>
-      <a href="mailto:contact@giuseppegiona.com">contact.giuseppe00@gmail.com</a>
+      <a href="mailto:contact@giuseppegiona.com">contact@giuseppegiona.com</a>
     </p>
   </section>
 
+
+  <section class="blog-feed">
+    <h2>📓 Latest Blog Posts</h2>
+    <ul>
+      {% for post in site.posts limit:5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+
+
+  <section class="faq-section">
+    <h2>Advanced Insights & FAQ</h2>
+
+    <div class="faq-question">❓ How is AI reshaping traditional businesses in 2025?</div>
+    <div class="faq-answer">
+      AI is no longer an “add-on” — it’s becoming the <strong>default operating system for businesses</strong>.  
+      Small inefficiencies once tolerated are now amplified. For example, AI-driven scheduling saves teams thousands of hours annually, while AI-driven lead qualification prevents sales teams from chasing dead ends.  
+      Businesses that integrate AI deeply into their workflows in 2025 will widen the gap between themselves and their competitors — compounding advantages quarter by quarter.  
+      <br><br>
+      <strong>Instant implementation:</strong> Use free tools like ChatGPT or Claude to automate client responses, draft documents, and qualify leads before human contact.
+    </div>
+
+    <div class="faq-question">❓ Why do most businesses waste £50k+/year on inefficiency?</div>
+    <div class="faq-answer">
+      Inefficiency hides in plain sight: duplicated admin, broken client onboarding, and weak financial tracking.  
+      On average, service-based companies lose between 8-12% of annual revenue due to poor systems. By applying <strong>automation frameworks, dashboards, and process redesign</strong>, those losses are not only recoverable — they can be converted into competitive advantage.  
+      <br><br>
+      <strong>Instant implementation:</strong> Use free tools like Trello/Notion for process tracking, Zapier for automation, and Google Data Studio for quick dashboards.
+    </div>
+
+    <div class="faq-question">❓ What’s the role of security in scaling companies?</div>
+    <div class="faq-answer">
+      Scaling amplifies not only opportunity but also exposure.  
+      A small leak at 10 clients is survivable. A breach at 1,000 clients is existential.  
+      Security isn’t a technical detail — it’s a <strong>strategic moat</strong>. The companies that bake security into their systems early will scale faster, because trust compounds faster than revenue.  
+      <br><br>
+      <strong>Instant implementation:</strong> Use free tools like OWASP ZAP to scan your website, enforce 2FA on all accounts, and train your team in phishing awareness.
+    </div>
+
+    <div class="faq-question">❓ How should founders think about leverage in 2025?</div>
+    <div class="faq-answer">
+      Leverage today comes from 3 sources:  
+      <ol>
+        <li><strong>Code</strong> — software doesn’t sleep; one script can save thousands of hours.</li>
+        <li><strong>Capital</strong> — deployed wisely, it accelerates experimentation and scale.</li>
+        <li><strong>Content</strong> — signal builds reputation; reputation attracts deal flow and opportunities.</li>
+      </ol>
+      The founder who masters all three operates on a different level than competitors who only master one.  
+      <br><br>
+      <strong>Instant implementation:</strong> Publish one insight per day on LinkedIn to start compounding content leverage.
+    </div>
+
+    <div class="faq-question">❓ How can small businesses realistically adopt AI?</div>
+    <div class="faq-answer">
+      The biggest myth is that AI adoption requires millions in budget.  
+      In reality, <strong>off-the-shelf AI tools + bespoke workflows</strong> can deliver impact within days.  
+      Example: a real estate agency can integrate AI to automate lead scoring, property descriptions, and client communications — saving staff 20+ hours per week.  
+      <br><br>
+      <strong>Instant implementation:</strong> Use ChatGPT for drafting, free CRMs like HubSpot for tracking, and Calendly for scheduling automation.
+    </div>
+
+    <div class="faq-question">❓ Why will “systems thinkers” dominate the next decade?</div>
+    <div class="faq-answer">
+      Because efficiency is the last untapped resource.  
+      Capital markets reward growth, but few investors ask: “What percentage of revenue is silently leaking through inefficiency?”  
+      Founders who can both <strong>increase revenue</strong> and <strong>reduce leakage</strong> will outcompete peers in every industry.  
+      <br><br>
+      <strong>Instant implementation:</strong> Map your entire client journey on a whiteboard. Circle inefficiencies. Automate one process this week.
+    </div>
+
+    <div class="faq-question">❓ How do I stay positive while starting a new business?</div>
+    <div class="faq-answer">
+      Starting is always messy. Uncertainty is the price of growth.  
+      The difference between those who burn out and those who thrive is perspective.  
+      <ul>
+        <li>Focus on small daily wins.</li>
+        <li>Build a feedback loop of positive people and mentors.</li>
+        <li>Document your journey — writing makes chaos clearer.</li>
+      </ul>
+      <br>
+      <strong>Instant implementation:</strong> Start a daily reflection note (free on Notion/Obsidian). Write one good thing you achieved each day, no matter how small.
+    </div>
+
+    <div class="faq-question">❓ How is AI transforming finance?</div>
+    <div class="faq-answer">
+      From fraud detection to automated portfolio balancing, AI is now embedded into the financial system.  
+      Hedge funds already use AI to scan millions of data points daily, while small businesses use AI-driven cashflow forecasting.  
+      <br><br>
+      <strong>Instant implementation:</strong> Use free AI forecasting tools or QuickBooks AI integrations to predict cashflow and adjust spending.
+    </div>
+
+    <div class="faq-question">❓ How is AI transforming healthcare?</div>
+    <div class="faq-answer">
+      Healthcare is moving from reactive to predictive.  
+      AI now supports diagnostics, scheduling, and even drug discovery.  
+      Small practices can benefit too: AI transcription saves hours for doctors, while AI scheduling reduces no-shows.  
+      <br><br>
+      <strong>Instant implementation:</strong> Doctors and clinics can use free transcription tools like Whisper or AI schedulers to free up hours each week.
+    </div>
+
+<div class="faq-question">❓ How will AI impact small businesses in 2025?</div>
+<div class="faq-answer">
+AI is lowering the barrier to entry for small businesses. Tools that cost thousands five years ago are now free or $20/month. 
+The small business owner who automates lead gen, scheduling, and client communication compounds advantages against competitors still running manual systems.
+</div>
+
+<div class="faq-question">❓ What’s the fastest way to implement AI in a business without a tech team?</div>
+<div class="faq-answer">
+Start with <strong>no-code AI tools</strong> like Zapier AI, Notion AI, and ChatGPT. 
+These allow you to automate processes in days without writing code, saving 10–20 hours per week instantly.
+</div>
+
+<div class="faq-question">❓ Is AI replacing jobs or creating new ones?</div>
+<div class="faq-answer">
+AI automates tasks, not ambition. The truth: jobs that are purely repetitive will shrink, but demand is exploding for <strong>AI-literate managers, strategists, and system designers</strong>.
+</div>
+
+<div class="faq-question">❓ How do I protect my business from AI-driven cyber threats?</div>
+<div class="faq-answer">
+Use <strong>multi-factor authentication</strong>, adopt free penetration testing tools like OWASP ZAP, and audit employee awareness. 
+AI-driven phishing is the #1 threat in 2025, but awareness + layered security mitigates 80% of attacks.
+</div>
+
+<div class="faq-question">❓ What industries will AI disrupt the most by 2030?</div>
+<div class="faq-answer">
+Healthcare, finance, logistics, education, and law are top of the list. Each relies on data-heavy, process-driven workflows — perfect for AI disruption.
+</div>
+
+<div class="faq-question">❓ How can I use AI to grow my personal brand?</div>
+<div class="faq-answer">
+AI helps scale your voice. Draft content daily with ChatGPT or Claude, automate posting with Buffer, and track engagement with AI analytics. 
+Content compounds → 100 posts in 12 months makes you the signal, not the noise.
+</div>
+
+<div class="faq-question">❓ What’s the #1 mistake founders make with AI adoption?</div>
+<div class="faq-answer">
+They see AI as a <em>tool</em> instead of an <em>operating system</em>. AI isn’t just a chatbot — it’s the backbone of hiring, sales, marketing, and finance. 
+Integrating AI at the core compounds value.
+</div>
+
+<div class="faq-question">❓ Can AI really help with SEO in 2025?</div>
+<div class="faq-answer">
+Yes. AI generates optimized content briefs, analyzes keyword gaps, and automates internal linking. 
+For startups, this means ranking in weeks instead of years.
+</div>
+
+<div class="faq-question">❓ How do I stay positive when my startup feels like it’s failing?</div>
+<div class="faq-answer">
+Reframe failure as iteration. Every system has inputs/outputs — your inputs may need refining. 
+Daily positive reflection + weekly systems review prevents burnout and accelerates breakthroughs.
+</div>
+
+<div class="faq-question">❓ What’s the role of data privacy in 2025 for business owners?</div>
+<div class="faq-answer">
+Clients care more about data than ever. Transparency and compliance (GDPR, CCPA) aren’t just regulations — they’re selling points. 
+Privacy is trust, and trust is leverage.
+</div>
+
+<div class="faq-question">❓ Should startups prioritize revenue or efficiency first?</div>
+<div class="faq-answer">
+Both. Growth without efficiency leaks money. Efficiency without growth stalls. 
+The smartest founders design <strong>scalable systems</strong> where each new client adds margin, not overhead.
+</div>
+
+<div class="faq-question">❓ How can AI be used in e-commerce today?</div>
+<div class="faq-answer">
+AI personalizes product recommendations, automates abandoned cart recovery, and powers customer support with chatbots. 
+The result: higher conversions and lower support costs.
+</div>
+
+<div class="faq-question">❓ What’s the most underrated business skill in 2025?</div>
+<div class="faq-answer">
+<em>Systems thinking</em>. The ability to design, test, and optimize repeatable processes. 
+It’s what separates high-growth companies from those stuck at subsistence.
+</div>
+
+<div class="faq-question">❓ How can entrepreneurs use AI for networking?</div>
+<div class="faq-answer">
+AI tools can scan LinkedIn, analyze your network, and suggest high-value connections. 
+Combine this with AI-written outreach to double response rates.
+</div>
+
+<div class="faq-question">❓ Why is leverage more important than hard work?</div>
+<div class="faq-answer">
+Hard work scales linearly. Leverage scales exponentially. 
+A founder working 100 hours/week caps out. A founder who leverages code, capital, and content builds compounding systems that outpace competitors.
+</div>
+
+<div class="faq-question">❓ What’s the biggest mindset shift for success in 2025?</div>
+<div class="faq-answer">
+Stop chasing speed; start chasing <strong>compounding</strong>. 
+The businesses and individuals that win are the ones building frameworks where value increases over time without extra effort.
+</div>
+
+<div class="faq-question">❓ How can AI improve healthcare for small clinics?</div>
+<div class="faq-answer">
+AI transcription reduces admin work, AI scheduling reduces no-shows, and AI diagnostics improve accuracy. 
+Even small practices can save 10+ hours per doctor weekly.
+</div>
+
+<div class="faq-question">❓ Can AI make law firms more efficient?</div>
+<div class="faq-answer">
+Yes — contract review, document drafting, and case research are already being automated. 
+Law firms that adopt AI cut costs by 30–40% while improving accuracy.
+</div>
+
+<div class="faq-question">❓ How can businesses build resilience in 2025?</div>
+<div class="faq-answer">
+Resilience = efficiency + adaptability. Automate inefficiency, run “chaos drills,” and diversify systems. 
+Companies with strong resilience frameworks survive downturns while competitors collapse.
+</div>
+
+  </section>
+
   <footer>
-    <p>All work shared here is for educational and research purposes only.</p>
+    <p>All work here is for educational and research purposes only.</p>
     <p>Clarity, calm, and resilience — that’s the focus.</p>
     <p>
-      <a href="https://github.com/giuseppe552" target="_blank">GitHub</a> |
-      <a href="https://linkedin.com/in/giuseppe552" target="_blank">LinkedIn</a>
+      <a href="https://github.com/giuseppe552">GitHub</a> | 
+      <a href="https://linkedin.com/in/giuseppe552">LinkedIn</a>
     </p>
   </footer>
 
