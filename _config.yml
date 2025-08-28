@@ -1,7 +1,12 @@
-markdown: kramdown
+title: "Giuseppe Giona"
+description: "Official site of Giuseppe Giona – AI, Security, and Strategy Insights."
 theme: jekyll-theme-hacker
+
+markdown: kramdown
+
 plugins:
+  - jekyll-sitemap
   - jekyll-seo-tag
+
 sass:
   style: compressed
-
