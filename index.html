@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Giuseppe Giona"
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,11 +96,11 @@
   </section>
 
 
-   <section class="blog-feed">
+  <section class="blog-feed">
     <h2>📓 Latest Blog Posts</h2>
     <ul>
       {% for post in site.posts limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}</li>
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}</li>
       {% endfor %}
     </ul>
   </section>
