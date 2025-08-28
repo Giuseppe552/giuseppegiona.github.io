@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.giuseppegiona.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Blog index -->
+  <url>
+    <loc>https://www.giuseppegiona.com/blog/</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Example blog posts (update as you add posts) -->
+  <url>
+    <loc>https://www.giuseppegiona.com/posts/2025-08-28-welcome</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.giuseppegiona.com/posts/2025-08-29-ai-in-roofing-lead-generation</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ section -->
+  <url>
+    <loc>https://www.giuseppegiona.com/#faq</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
